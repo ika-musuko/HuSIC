@@ -11,8 +11,10 @@
 CDEFS =
 CFLAGS =
 # CFLAGS += -Werror -Wall 
-CFLAGS += -g -m32
-LDFLAGS = -m32 -g
+CFLAGS += -g
+LDFLAGS = -g
+#CFLAGS += -g -m32
+#LDFLAGS = -m32 -g
 
 #
 # platform-specific stuff

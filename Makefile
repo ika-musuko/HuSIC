@@ -11,7 +11,7 @@ ZIPNAME = husic_$(DATE).zip
 
 PFX =
 CC = gcc
-CMD = 
+CMD = sh
 
 ifeq ($(OS),Windows_NT)
 SCRSFX = .bat
